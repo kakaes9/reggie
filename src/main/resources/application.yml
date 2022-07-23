@@ -2,6 +2,19 @@
 server:
   port: 8080
 spring:
+#  Redis相关配置
+#  redis:
+#    host: localhost
+#    port: 6379
+##    password: 123456
+#    database: 0
+#    jedis:
+#      #Redis链接池配置
+#      pool:
+#        max-active: 8
+#        max-wait: 1ms
+#        max-idle: 4
+#        min-idle: 0
   application:
     #引用名称
     name: reggie_take_out
